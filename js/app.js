@@ -14,7 +14,7 @@ if (q1answer){
 else {
   alert(' Wrong answer, my name is Areej ');
 }
-console.log('User answer '+ q1answer);
+// console.log('User answer '+ q1answer);
 
 
 
@@ -27,9 +27,9 @@ if (q2answer){
 
 }
 else {
-    alert(' Wrong answer, are you kidding me!! ');
+  alert(' Wrong answer, are you kidding me!! ');
 }
-console.log('User answer '+ q2answer);
+// console.log('User answer '+ q2answer);
 
 
 
@@ -43,7 +43,7 @@ if (q3answer){
 else {
   alert(' Wrong answer, it is my favorite color ');
 }
-console.log('User answer '+ q3answer);
+// console.log('User answer '+ q3answer);
 
 
 
@@ -58,7 +58,7 @@ if (q4answer){
 else {
   alert(' Wrong answer,  I am in Jordan  ');
 }
-console.log('User answer '+ q4answer);
+// console.log('User answer '+ q4answer);
 
 
 // Q num 5
@@ -72,8 +72,11 @@ if (q5answer){
 else {
   alert(' Wrong answer,  I like coding  ');
 }
-console.log('User answer '+ q5answer);
+// console.log('User answer '+ q5answer);
 
 
 let userName =prompt('What is your name ?');
 alert(' Hello ' + userName +' hope you enjoy the Guessing Game you got '+ qcount + ' correct answer !');
+
+// console.log('User name '+ userName);
+
