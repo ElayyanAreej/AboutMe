@@ -114,6 +114,10 @@ for (let i = 0; i < 6; i++) {
     alert('wrong Answer');
   }
 }
-
+let correct = 'The correct answers:';
+for (let i = 0; i <= webDevoLan.length; i++) {
+  correct = correct + '  ' + webDevoLan[i];
+}
+alert(correct);
 alert(' Hello ' + userName + ' hope you enjoy the Guessing Game you got ' + qcount + ' correct answer /7 !');
 
